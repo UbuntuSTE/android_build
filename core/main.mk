@@ -439,6 +439,7 @@ subdirs := \
 	build/tools/zipalign \
 	development/tools/emulator/opengl \
 	external/aac \
+	external/bluetooth \
 	external/busybox \
 	external/bzip2 \
 	external/checkpolicy \
@@ -452,6 +453,8 @@ subdirs := \
 	external/giflib \
 	external/gtest \
 	external/icu4c \
+	external/iptables \
+	external/iproute2 \
 	external/jhead \
 	external/jpeg \
 	external/liblzf \
@@ -460,6 +463,7 @@ subdirs := \
 	external/libvpx \
 	external/libselinux \
 	external/libsepol \
+	external/mdnsresponder \
 	external/mksh \
 	external/openssl \
 	external/pigz \
@@ -480,6 +484,7 @@ subdirs := \
 	external/webrtc \
 	external/wpa_supplicant_6 \
 	external/wpa_supplicant_8 \
+	external/wpa_supplicant_8_ti \
 	external/yaffs2 \
 	external/zlib \
 	frameworks/av/camera \
@@ -515,6 +520,7 @@ subdirs := \
 	prebuilts/tools/linux-x86/sdl \
 	sdk/emulator \
 	system/core \
+	system/netd \
 	system/vold \
 	system/bluetooth \
 	system/extras/ext4_utils \
